@@ -52,12 +52,12 @@ define([
     ];
     // default parameters
     var cfg = {
-        insert_as_new_cell: false,
+        insert_as_new_cell: true,
         insert_before_sibling: false,
         include_custom_menu: false,
         include_submenu: {}, // default set after this definition
         sibling_selector: '#help_menu',
-        top_level_submenu_goes_left: true,
+        top_level_submenu_goes_left: false,
         // The default has to be included here as well as config.yaml
         // because the configurator will not store the default given
         // in config.yaml unless it is changed.  That means that this
